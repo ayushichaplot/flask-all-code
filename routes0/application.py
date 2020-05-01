@@ -6,6 +6,6 @@ app = Flask(__name__)
 def index():
     return "Hello, world!"
 
-@app.route("/david")
+@app.route("/ayushi")
 def david():
-    return "Hello, David!"
+    return "Hello, Ayushi!"
